@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/affix',
       name: 'affix',
-      component: () => import('_c/affix')
+      component: () => import('@/views/affixPage.vue')
     }
   ]
 })
