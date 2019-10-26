@@ -8,7 +8,12 @@ export default new Router({
     {
       path: '/affix',
       name: 'affix',
-      component: () => import('@/views/affixPage.vue')
+      component: () => import('@/views/affixPage')
+    },
+    {
+      path: '/alert',
+      name: 'alert',
+      component: () => import('@/views/alertPage')
     }
   ]
 })
