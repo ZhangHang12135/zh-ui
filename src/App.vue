@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/affix">Affix</router-link> |
       <router-link to="/alert">Alert</router-link> |
+      <router-link to="/anchor">anchor</router-link> |
     </div>
     <router-view/>
   </div>
